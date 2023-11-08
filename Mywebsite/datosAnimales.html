@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>datosAnimales</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="bodyAnimales">
+    <div class="container">
+        <nav class="nav-main">
+            <a href="./home.html"><img src="assets/cocodrilo.png" alt="Texto"></a>
+        <ul class="nav-menu">
+            <li><a href="./datosAnimales.html">datos animales</a></li>
+            <li><a href="./concientizacion.html">Concientización</a></li>
+        </ul>
+        <ul class="nav-menu-right">
+            <li><a href="./perfilDuvan.html"><img src="assets/nino.png" alt="Duvan"></a></li>
+            <li><a href="./perfilRoy.html"><img src="assets/hombre.png" alt="Roysman" id="imgR"></a></li>
+        </ul>
+        </nav> 
+    </div>
+    <div>
+        <button id="agregarFila" class="boton" onclick="tabla()">añadir datos</button>
+    </div>
+    <div>
+        <table class="table">
+            <tr>
+                <td>Nombre cientifico</td>
+                <td>Nombre</td>
+                <td>Conservación</td>
+                <td>Rol ecologico</td>
+                <td>Habitat</td>
+                <td>Descripción del animal</td>
+                <td>Lugar de avistamiento</td>
+            </tr>
+            <tr>
+                <td>Calonectris diomedea</td>
+                <td>Pardela Cenicienta</td>
+                <td>Preocupación Menor</td>
+                <td>Ave marina que se alimenta de peces y plancton en el océano.</td>
+                <td>Océano Pacífico y Atlántico, cerca de las costas de Antioquia.</td>
+                <td>Las pardelas cenicientas son aves marinas de plumaje oscuro y alas largas, ideales para el vuelo a larga distancia.</td>
+                <td>Se pueden avistar desde la costa de Antioquia durante ciertas épocas del año.</td>
+            </tr>
+            <tr>
+                <td>Ara ararauna</td>
+                <td>Guacamaya Azul y Amarilla</td>
+                <td>Casi Amenazada</td>
+                <td>Distribuidora de semillas en los bosques tropicales.</td>
+                <td>Selvas y bosques tropicales de Antioquia.</td>
+                <td>Estas guacamayas son conocidas por su plumaje vibrante de colores azules y amarillos.</td>
+                <td> Se pueden observar en las selvas y bosques de Antioquia, como en el Parque Nacional Natural Las Orquídeas.</td>
+            </tr>
+            <tr>
+                <td>Carassius auratus</td>
+                <td>Pez Dorado</td>
+                <td>No se aplica en este contexto</td>
+                <td>Pez de agua dulce popular en acuarios</td>
+                <td>Lagos, ríos y estanques en Medellín y Antioquia</td>
+                <td>El pez dorado es un pez de agua dulce con un característico color dorado o naranja. Es una especie introducida en muchas partes del mundo.</td>
+                <td>En acuarios y en cuerpos de agua de Medellín y Antioquia.</td>
+            </tr>
+            <tr>
+                <td>Ensifera ensifera</td>
+                <td>Colibrí Picoespada</td>
+                <td>Preocupación Menor</td>
+                <td>Polinizador de flores en los bosques y jardines.</td>
+                <td>Bosques, jardines y zonas con flores en Antioquia.</td>
+                <td>El colibrí picoespada es un pequeño pájaro con un largo pico curvado y un plumaje brillante y colorido.</td>
+                <td>En áreas con abundante vegetación y flores, como jardines botánicos y reservas naturales en Medellín y Antioquia.</td>
+            </tr>
+        </table>
+        
+    </div>
+    <script src="./tabla.js"></script>
+</body>
+</html>

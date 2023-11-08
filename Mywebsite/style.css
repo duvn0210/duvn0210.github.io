@@ -1,0 +1,364 @@
+/*estilos index*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color:black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.title-index{
+    margin-top: 20px;
+    margin-left: 480px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 90%;
+    margin: auto ;
+}
+
+.nav-main{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    height: 60px; 
+    padding: 20px 0;
+    background-color: #DAB894;
+    border-radius: 10px;
+}
+img{
+width: 45px; 
+}
+
+#imgR{
+    margin-right: 530px;
+}
+
+.nav-main ul{
+display: flex;
+
+}
+
+.nav-main ul li{
+padding: 10px; 
+}
+
+.nav-menu li a{
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #248232; /* the color */
+    
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+    linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+.nav-menu li a:hover{
+    --_p: 100%;
+    --_s: .3s;
+
+}
+.nav-main ul.nav-menu{
+flex: 1;
+margin-left: 20px;
+}
+
+/*estilos-datos animales*/
+
+.table {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    color: black;
+    margin-top: 30px;
+    margin-left: 65px;
+    margin-right: 65px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+#bodyAnimales{
+    background-color: #B0C0BC;
+}
+
+.boton{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 605px;
+    cursor: pointer;
+    border-radius: 3rem;
+    border: transparent;
+}
+
+.boton:hover{
+border: 2px solid transparent;
+background-color: #C1D37F;
+transform: scale(1.05);
+will-change: transform;
+}
+
+/*Concientizacion*/
+.imgC{
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 400px;
+    border-radius: 20px;
+}
+.title-C{
+    margin-bottom: 20px;
+}
+.texto{
+    line-height: 2;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+/*estilos contenedores index*/
+.turism{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.turism-box{
+    cursor: pointer;
+    background-color: #38da51;
+    box-shadow: 0 20px 30px black;
+    padding: 15px;
+    border-radius: 0.5rem;
+}
+
+.turism-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+}
+
+.turism-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-color);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.turism-date{
+    display: flex;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.turism-price {
+    display: flex;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.turism-description{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin: 5px 0 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/*cvs*/
+body {
+    background-color: #E1D89F; 
+    color: #0e273c;
+    font-size: 20px ;
+    text-align: justify;
+    font-family: 'Signika Negative', sans-serif;
+}
+h4{
+    margin-top: 60px;
+}
+
+#main-title {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.third-title {
+    text-align: center;
+    margin-right: 200px;
+}
+
+.main {
+    padding: 20px;
+    margin: 40px 10px;
+    background-color: #706f6f;
+    border-radius: 20px;
+}
+
+.main-Roy {
+    padding: 20px;
+    margin: 40px 10px;
+    background-color: #706f6f;
+    border-radius: 20px;
+}
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1px;
+    margin-left: 200px;
+}
+
+.main-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    margin-left: 570px;
+    margin-top: 10px;
+}
+
+.academic{
+    margin-top: 10px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+    background-color: #706f6f;
+    border-radius: 20px;
+    list-style: none;
+}
+.academic-Roy{
+    margin-top: 10px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+    background-color: #706f6f;
+    border-radius: 20px;
+    list-style: none;
+}
+
+#about-me {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.lista > li {
+    list-style: none;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill .skill-description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skill .progress {
+    height: 10px;
+    background-color: #706f6f;
+}
+
+.skill .progress.percentage {
+    background-color: #F6CA83;
+}
+/*post*/
+.post-header{
+    width: 100%;
+    height: 500px;
+    background: var(--container-color);
+}
+.post-container{
+    color: #000;
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+}
+
+.header-img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem !important;
+}
+.header-title{
+    width: 90%;
+    font-size: 2.6rem;
+    color: var(--bg-color);
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: -40px;
+}
+
+.sub-heading{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.post-text {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin: 1rem 0;
+    text-align: justify;
+}

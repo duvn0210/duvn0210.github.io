@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>Sitio web</title>
+</head>
+<body>
+<div class="main-container">
+    <div class="login-main_container">
+    <div class="login-form">
+        <button id="facebook" class="main-boton">
+            <div class="boton-facebook">
+                <div class="f-icono"><i class="fa-brands fa-square-facebook"></i></div><div>Inicia sesión con Facebook</div>
+            </div>
+        </button>
+        <button id="gmail" class="second-boton">
+            <div class="boton-gmail">
+                <div class="g-icono"><i class="fa-solid fa-g"></i></div><div class="div-p">Inicia sesión con Google</div>
+            </div>
+        </button>
+        <input id="usuario-inicio" type="text" class="form-control" name="username" placeholder="Correo">
+        <input id="contraseña-inicio" type="password" class="form-control" name="password" placeholder="Contraseña">
+        <br>
+        <button id="boton" class="third-boton" onclick="iniciarSesion ()">Inicia sesión</button>
+        <br>
+        <div>
+            <a class="forgot-pasword" onclick="olvidasteContrasena ()">¿Olvidaste tu contraseña?</a>
+        </div>
+        <div class="div-register">
+            <p>¿No tienes una cuenta?</p><a href="/registrar.html">Regístrate</a>
+        </div>
+    </div>
+    </div>
+</div>
+<script src="./autenticacion.js"></script>
+<script src="https://kit.fontawesome.com/7915c01d72.js" crossorigin="anonymous"></script>
+</body>
+</html>
